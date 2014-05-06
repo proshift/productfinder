@@ -1,0 +1,16 @@
+#contactform
+{
+	position:relative;
+	width:600px;
+	height:1000px;
+	margin-left:30%;
+	z-index:100;
+}
+
+#contactform label
+{
+	display:block;
+	color:#0481b1;
+	font-family:"Wellfleet";
+	size:18px;
+}

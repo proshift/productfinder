@@ -6,7 +6,7 @@ Author: Samuel Dalusung
 
 /*= GENERAL STYLING
 --------------------------------------------------------*/
-
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
 body{
 	margin: 0;
 	padding: 0;
@@ -61,8 +61,10 @@ a.rpanel:hover{ color: #fff; }
 	width: 100%; 
 	background: url('../images/header-bg.png'); 
 	height: 80px; 	
-	position: fixed;
+	position:fixed;
 	margin-top: 30px;
+	z-index:200;
+
 }
 
 #nav { width: 600px; float: right; margin-top: 20px; position:relative;}
@@ -147,7 +149,25 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide2{
 	background-color: #fff;
 	color: #333333;
-	height: 450px;
+	height: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 80px 0;
+}
+
+#slide2login{
+	background-color: #fff;
+	color: #333333;
+	height: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 80px 0;
+}
+
+#slide2password {
+	background-color: #fff;
+	color: #333333;
+	height: 700px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 80px 0;
@@ -170,8 +190,11 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide4{
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
-	padding: 200px 0;
+	height: 650px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+	
 }
 
 #slide5{
@@ -209,3 +232,40 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	display:inline;
 }
 
+
+
+/*= FUSERINTERFACE TABLE 
+--------------------------------------------------------*/
+
+
+.contenttable{
+	font-family: 'Bree Serif', serif;
+	font-size:18px;
+	font-weight:600;
+	margin-top:20px;
+	box-shadow: 10px 10px 5px #888888;
+	background: #f9f9f9;
+	background: -moz-linear-gradient(top,  rgba(248,248,248,1) 0%, rgba(249,249,249,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: -o-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+	background: linear-gradient(top,  rgba(248,248,248,1) 0%,rgba(249,249,249,1) 100%);
+
+	
+	
+}
+
+
+#ct_heading {
+	color: #7E7E7E;
+	font: bold 25px Helvetica, Arial, sans-serif;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin: 10px 0 30px;
+}
+
+.description
+{
+	font-family: 'Bree Serif', serif;
+	color:#0481b1;
+}

@@ -3,7 +3,7 @@ class DBclass {
 	public $host = 'localhost';
     public $username = 'root';
 	public $password = '';
-	public $dbname = 'content_manager';
+	public $dbname = 'producttracker';
 	private $dbhandle;
 	private $result;
 	

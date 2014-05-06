@@ -2,20 +2,20 @@
 {
 	position:relative;
 	width:600px;
-	height:400px;
+	height:auto;
 	float:left;
-	margin-left:300px;
-	z-index:1;
+	margin-left:100px;
+	z-index:100;
 }
 
 #registrationform
 {
 	position:relative;
 	width:600px;
-	height:400px;
+	height:auto;
 	float:right;
-	left:-300px;
-	z-index:1;
+	left:-100px;
+	z-index:100;
 }
 
 #login-field
@@ -56,28 +56,30 @@ legend {
         font-weight:bold;
 }
 
-.lr_form, textarea {
-        color: #373737;
+.lr_form {
+	color: #373737;
         background: #fff;
         border: 1px solid #CCCCCC;
         color: #aaa;
         font-size: 14px;
         line-height: 1.2em;
         margin-bottom:15px;
+		
+		padding: 8px 6px;
+        height: 22px;
+        width:280px;
 
         -moz-border-radius:4px;
         -webkit-border-radius:4px;
         border-radius:4px;
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
-    }
-	input[type="text"],
-	input[type="password"]{
-        padding: 8px 6px;
-        height: 22px;
-        width:280px;
-    }
+}
 
-  	input[type="submit"]{
+#submitbutton{
+	
+		padding: 8px 6px;
+        height: 35px;
+        width:280px;
         background: #222;
         border: none;
         text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
@@ -94,8 +96,6 @@ legend {
         -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
         box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
     }
-	
-	
 	
 	textarea {
         padding:3px;
@@ -116,4 +116,8 @@ legend {
         font-size:12px;
         color:#999898;
         margin-bottom:3px;
+	}
+
+
+
 }
