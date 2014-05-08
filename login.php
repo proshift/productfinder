@@ -8,6 +8,7 @@
        <link rel="stylesheet" href="css/loginform.css"/>
        <link rel="stylesheet" href="css/contactform.css"/>
        <link rel="stylesheet" href="css/tabs.css" />
+       <link rel="stylesheet" href="css/pricingtable.css"/>
 	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
        <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
 	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
@@ -124,7 +125,136 @@ $(document).ready(function() {
    <div id="slide3">
 		<div class="content">
 			   <div class="quotes_container">
-		       <h3 class="quotes">Sample Hot Products</h3>
+		    	 <h1>CHECK OUT SOME OF THE HOTTEST PRODUCTS!</h1>
+             <div id="hotproducts">
+		       	<ul class="pricing_table">
+<li class="price_block">
+<h3>ELMA AMASYA KG</h3>
+<div class="price">
+<div class="price_figure">
+<span class="price_number">6.95</span>
+</div>
+</div>
+<ul class="features">
+<li>Tasty</li>
+<li>Healthy</li>
+<li>Good Looking</li>
+</ul>
+<div class="footer">
+<a href="#" class="action_button">Explore Now!</a>
+</div>
+</li>
+<li class="price_block">
+<h3>PORTAKAL SIKMALIK KG</h3>
+<div class="price">
+<div class="price_figure">
+<span class="price_number">1.45</span>
+<span class="price_tenure"></span>
+</div>
+</div>
+<ul class="features">
+<li>Good for family!</li>
+<li>Make some juice</li>
+<li>It is an Orange!</li>
+</ul>
+<div class="footer">
+<a href="#" class="action_button">Explore Now!</a>
+</div>
+</li>
+<li class="price_block">
+<h3>MARUL ADET</h3>
+<div class="price">
+<div class="price_figure">
+<span class="price_number">3.59</span>
+<span class="price_tenure"></span>
+</div>
+</div>
+<ul class="features">
+<li>Make some Salads!</li>
+<li>Vegetables are good for You!</li>
+<li>No calories!</li>
+</ul>
+<div class="footer">
+<a href="#" class="action_button">Explore Now!</a>
+</div>
+</li>
+<li class="price_block">
+</ul>
+</li>
+</ul>
+<ul class="skeleton pricing_table" style="margin-top: 100px; overflow: hidden;">
+<li class="label" style="margin: 0 none;">ul.pricing_table</li>
+<li class="price_block">
+<span class="label">li.price_block</span>
+<h3><span class="label">h3</span></h3>
+<div class="price">
+<span class="label">div.price</span>
+<div class="price_figure">
+<span class="label">div.price_figure</span>
+<span class="price_number">
+<span class="label">span.price_number</span>
+</span>
+<span class="price_tenure">
+<span class="label">span.price_tenure</span>
+</span>
+</div>
+</div>
+<ul class="features">
+<li class="label">ul.features</li>
+<br/><br/><br/>
+</ul>
+<div class="footer">
+<span class="label">div.footer</span>
+</div>
+</li>
+<li class="price_block" style="opacity: 0.5;">
+<span class="label">li.price_block</span>
+<h3><span class="label">h3</span></h3>
+<div class="price">
+<span class="label">div.price</span>
+<div class="price_figure">
+<span class="label">div.price_figure</span>
+<span class="price_number">
+<span class="label">span.price_number</span>
+</span>
+<span class="price_tenure">
+<span class="label">span.price_tenure</span>
+</span>
+</div>
+</div>
+<ul class="features">
+<li class="label">ul.features</li>
+<br/><br/><br/>
+</ul>
+<div class="footer">
+<span class="label">div.footer</span>
+</div>
+</li>
+<li class="price_block" style="opacity: 0.25;">
+<span class="label">li.price_block</span>
+<h3><span class="label">h3</span></h3>
+<div class="price">
+<span class="label">div.price</span>
+<div class="price_figure">
+<span class="label">div.price_figure</span>
+<span class="price_number">
+<span class="label">span.price_number</span>
+</span>
+<span class="price_tenure">
+<span class="label">span.price_tenure</span>
+</span>
+</div>
+</div>
+<ul class="features">
+<li class="label">ul.features</li>
+<br/><br/><br/>
+</ul>
+<div class="footer">
+<span class="label">div.footer</span>
+</div>
+</li>
+</ul>
+		</div>    
 		    </div> 
 		</div> 
     </div> 

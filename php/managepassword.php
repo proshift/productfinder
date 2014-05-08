@@ -68,7 +68,7 @@ $(document).ready(function() {
 <!----- HEADER START--->   
 <header id="header">
 <div class="content">
-<div id="logo"><a href="index.php"> Product Tracker </a></div>
+<div id="logo"><a href="../index.php"> Product Tracker </a></div>
 
 <div id="nav">
 	<ul>

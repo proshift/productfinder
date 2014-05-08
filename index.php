@@ -76,14 +76,14 @@ $(document).ready(function() {
             <h2>PRODUCT TRACKER</h2>
 		    <h1>FIND YOUR PRODUCT</h1>
           	</div id="search_form">
-		   	<form class="form-wrapper cf" action="search.php" method="get">
+		   	<form class="form-wrapper cf" action="searchresult.php" method="get">
         		<input id="searchkey" name="searchkey"  type="text" placeholder="Search here..." required>
         		<button type="submit">Search</button>
    			</form>   
 			</div> 
 		</div> 
     </div> 
-
+    
 	<div id="slide2">
 		<div class="content" >
  			<div id="loginheading"><h1> LOGIN OR BECOME A MEMBER FOR BETTER SERVICE! </h1>	</div>
@@ -142,82 +142,57 @@ $(document).ready(function() {
              <div id="hotproducts">
 		       	<ul class="pricing_table">
 <li class="price_block">
-<h3>Starter</h3>
+<h3>ELMA AMASYA KG</h3>
 <div class="price">
 <div class="price_figure">
-<span class="price_number">FREE</span>
+<span class="price_number">6.95</span>
 </div>
 </div>
 <ul class="features">
-<li>1GB Storage</li>
-<li>2 Clients</li>
-<li>5 Active Projects</li>
-<li>5 Colors</li>
-<li>Free Goodies</li>
-<li>24/7 Email support</li>
+<li>Tasty</li>
+<li>Healthy</li>
+<li>Good Looking</li>
 </ul>
 <div class="footer">
-<a href="#" class="action_button">Buy Now</a>
+<a href="#" class="action_button">Explore Now!</a>
 </div>
 </li>
 <li class="price_block">
-<h3>Basic</h3>
+<h3>PORTAKAL SIKMALIK KG</h3>
 <div class="price">
 <div class="price_figure">
-<span class="price_number">$9.99</span>
-<span class="price_tenure">per month</span>
+<span class="price_number">1.45</span>
+<span class="price_tenure"></span>
 </div>
 </div>
 <ul class="features">
-<li>2GB Storage</li>
-<li>5 Clients</li>
-<li>10 Active Projects</li>
-<li>10 Colors</li>
-<li>Free Goodies</li>
-<li>24/7 Email support</li>
+<li>Good for family!</li>
+<li>Make some juice</li>
+<li>It is an Orange!</li>
 </ul>
 <div class="footer">
-<a href="#" class="action_button">Buy Now</a>
+<a href="#" class="action_button">Explore Now!</a>
 </div>
 </li>
 <li class="price_block">
-<h3>Premium</h3>
+<h3>MARUL ADET</h3>
 <div class="price">
 <div class="price_figure">
-<span class="price_number">$19.99</span>
-<span class="price_tenure">per month</span>
+<span class="price_number">3.59</span>
+<span class="price_tenure"></span>
 </div>
 </div>
 <ul class="features">
-<li>5GB Storage</li>
-<li>10 Clients</li>
-<li>20 Active Projects</li>
-<li>20 Colors</li>
-<li>Free Goodies</li>
-<li>24/7 Email support</li>
+<li>Make some Salads!</li>
+<li>Vegetables are good for You!</li>
+<li>No calories!</li>
 </ul>
 <div class="footer">
-<a href="#" class="action_button">Buy Now</a>
+<a href="#" class="action_button">Explore Now!</a>
 </div>
 </li>
 <li class="price_block">
-<h3>Lifetime</h3>
-<div class="price">
-<div class="price_figure">
-<span class="price_number">$999</span>
-</div>
-</div>
-<ul class="features">
-<li>Unlimited Storage</li>
-<li>Unlimited Clients</li>
-<li>Unlimited Projects</li>
-<li>Unlimited Colors</li>
-<li>Free Goodies</li>
-<li>24/7 Email support</li>
 </ul>
-<div class="footer">
-<a href="#" class="action_button">Buy Now</a>
-</div>
 </li>
 </ul>
 <ul class="skeleton pricing_table" style="margin-top: 100px; overflow: hidden;">
